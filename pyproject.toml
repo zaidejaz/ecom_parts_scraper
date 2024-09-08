@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ecom-parts-scraper"
+version = "0.1.0"
+description = ""
+authors = ["zaidejaz <zaidejaz521@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+bs4 = "^0.0.2"
+pandas = "^2.2.2"
+openpyxl = "^3.1.2"
+selenium = "^4.20.0"
+chromedriver-autoinstaller = "^0.6.4"
+tqdm = "^4.66.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
